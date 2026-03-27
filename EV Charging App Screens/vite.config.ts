@@ -20,14 +20,15 @@ export default defineConfig({
         theme_color: "#3b82f6",
         background_color: "#ffffff",
         display: "standalone",
+
         icons: [
           {
-            src: "/Logo Apps ChargerPoinid.png",
+            src: "/Logo Apps ChargerPoinid.png?v=1", // Tambahkan ?v=1
             sizes: "192x192",
             type: "image/png",
           },
           {
-            src: "/Logo Apps ChargerPoinid.png",
+            src: "/Logo Apps ChargerPoinid.png?v=1", // Tambahkan ?v=1
             sizes: "512x512",
             type: "image/png",
           },
